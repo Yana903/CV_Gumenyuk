@@ -178,6 +178,16 @@ img {
   .layout-about .card-data .card-data-title,
   .layout-header .card-data .card-data-description,
   .layout-about .card-data .card-data-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
   }
 }
