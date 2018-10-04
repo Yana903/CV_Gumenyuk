@@ -174,20 +174,23 @@ img {
   .layout-about .layout-item:last-child ul:last-of-type {
     padding-left: 20px;
   }
-  .layout-header .card-data .card-data-title,
-  .layout-about .card-data .card-data-title,
-  .layout-header .card-data .card-data-description,
-  .layout-about .card-data .card-data-description {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .layout-header .card-data,
+  .layout-about .card-data {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  .layout-header .card-data .card-data-title,
+  .layout-about .card-data .card-data-title,
+  .layout-header .card-data .card-data-description,
+  .layout-about .card-data .card-data-description {
     text-align: center;
   }
 }
